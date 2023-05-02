@@ -1,0 +1,106 @@
+
+/* banner section start */
+.title_box {
+    width: 100%;
+    float: left;
+    background-image: url(../images/background-img.jpg);
+    height: 30rem;
+    background-size: 100%;
+    padding-top: 1rem;
+}
+
+
+.page_box {   
+    float: left;
+    background-image: url(../images/background-img.jpg);
+    width: 100%;
+    background-size: 100%;
+    padding-top: 2rem;
+}
+
+h1 {
+    margin: 10px;   
+    color: antiquewhite;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+p {
+    margin: 20px;
+    font-size: 2rem;
+    color: antiquewhite;
+    float: left;
+    padding-left: 1rem;
+}
+
+.row {
+    display: grid;
+    grid-auto-flow: column;
+    float: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/* banner section end */
+
+/* images section start */
+.solar_img img {
+    width: 22rem;
+    height: 22rem;   
+}
+
+.images_box {
+    background-color:aliceblue;   
+}
+
+.text1 {
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    color: #3b3b3b;
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.text2 {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #3b3b3b;
+    text-align: justify;
+    margin: 0px;
+}
+
+.button_read {
+    width: 120px;
+    margin-left: 1rem;
+    padding-top: 20px;
+    display: flex;
+}
+
+.button_read a {  
+    font-size: 16px;
+    color:#1f1f1f;   
+    border-radius: 5px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 10px;
+}
+/* images section end */
+
+/* footer section start */
+.footer {
+    color: antiquewhite;
+    width: 100%;    
+}
+
+.footer > p {
+    font-size: 20px;
+    color: black;
+    font-weight: bold; 
+    padding-left: 40%;
+}
+/* footer section end */

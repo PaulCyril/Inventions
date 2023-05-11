@@ -1,21 +1,10 @@
 
 /* banner section start */
 .title_box {
-    width: 100%;
     float: left;
     background-image: url(../images/background-img.jpg);
-    height: 30rem;
     background-size: 100%;
-    padding-top: 1rem;
-}
-
-
-.page_box {   
-    float: left;
-    background-image: url(../images/background-img.jpg);
-    width: 100%;
-    background-size: 100%;
-    padding-top: 2rem;
+    padding-top: 2rem;    
 }
 
 h1 {
@@ -28,30 +17,52 @@ h1 {
 
 p {
     margin: 20px;
-    font-size: 2rem;
+    font-size: 30px;
     color: antiquewhite;
     float: left;
     padding-left: 1rem;
 }
 
 .row {
-    display: grid;
-    grid-auto-flow: column;
-    float: left;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    display: flex;
+    flex-wrap:wrap;
+    
+    padding-left: 4px;
+    padding-top: 8px;
 }
 /* banner section end */
 
 /* images section start */
-.solar_img img {
-    width: 22rem;
-    height: 22rem;   
+#solar_img img {
+    width: 20rem;
+    height: 20rem;  
 }
 
 .images_box {
-    background-color:aliceblue;   
+    dpadding-top: 2rem;
+}
+
+#solar_img {
+    display: flex;
+    flex: auto;
+    height: max-content;
+    flex-direction: column;   
+}
+
+#solar_img2 {
+    display: flex;
+    width: 22rem;
+    height: 22rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px 4px 4px 4px; 
+    margin-left: 1rem;    
+}
+
+#solar_img2 img {
+    width: 100%;
+    height: 100%;  
 }
 
 .text1 {
